@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+.non-clickable {
+  pointer-events :none;
+  background-color: rgb(184, 177, 177);
+}
+
+.clickable {
+  pointer-events: auto;
+}
